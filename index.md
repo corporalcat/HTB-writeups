@@ -1,1 +1,1 @@
-### I am a cyber security student in Bina Nusantara University.
+### I am a cyber security student in Bina Nusantara University. I like to do ctf especially Hackthebox and this is where i put my writeups. Enjoy!
