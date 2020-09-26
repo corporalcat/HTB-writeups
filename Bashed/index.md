@@ -1,6 +1,6 @@
 # **HACKTHEBOX – BASHED WRITEUP**
 
-![](image001.png)
+![](image001.jpg)
 
 # **IP: 10.10.10.68**
 
@@ -20,11 +20,11 @@ I try running gobuster against the website. Because the website says php so I th
 
 It returns more hidden directories, and the most interesting is &quot;/dev&quot;.
 
-![](image004.png)
+![](image004.jpg)
 
 Opening &quot;/dev&quot; gives us 2 php files. I try opening &quot;phpbash.php&quot;.
 
-![](image005.png)
+![](image005.jpg)
 
 It gives us a shell, so I will try a reverse shell.
 
@@ -36,7 +36,7 @@ We got a shell!
 
 Running the command &quot;sudo -l&quot; as www-data says that we can run as scriptmanager. So we can simply use scriptmanager to run bash to spawn a shell as scriptmanager.
 
-![](image007.png)
+![](image007.jpg)
 
 # **ROOT**
 
