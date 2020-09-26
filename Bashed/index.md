@@ -49,3 +49,5 @@ After running &quot;ls -la&quot;, There is a python script called &quot;test.py&
 I decided to put a python reverse shell payload and setup a listener.
 
 ![](image009.png)
+
+We got root!
