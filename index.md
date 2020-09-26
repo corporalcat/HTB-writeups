@@ -3,6 +3,7 @@ I am a cyber security student in Bina Nusantara University. I like to do ctf esp
 ![](/Magic/logo.png)
 [HTB - MAGIC](https://corporalcat.github.io/Writeups/Magic/)
 <br><br>
+![](/Bashed/image001.jpg)
 [HTB - BASHED](https://corporalcat.github.io/Writeups/Bashed/)
 
 
