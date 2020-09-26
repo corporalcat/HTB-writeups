@@ -1,6 +1,6 @@
 # **HACKTHEBOX – MAGIC WRITEUP**
 
-![](RackMultipart20200925-4-tfagf1_html_667d7be7cc0ffee5.png)
+![](/Magic/logo.png)
 
 # **IP: 10.10.10.185**
 
@@ -15,11 +15,12 @@ The scan shows 2 ports are open. Port 22 for SSH and port 80 for Apache.
 
 I will start an all ports nmap scan ( -p ) just in case there are more open ports.
 
-![](RackMultipart20200925-4-tfagf1_html_bc743e96c7770bcb.png)
+
+![](/Magic/nmap-allports.png)
 
 The Apache web server has a wider attack surface, so that is what I am going to enumerate more first.
 
-![](RackMultipart20200925-4-tfagf1_html_34fa9c21cfeeab9b.png)
+![](/Magic/homewebsite.png)
 
 Port 80 gives a web page with a bunch of images.
 
