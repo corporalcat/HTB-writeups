@@ -65,7 +65,7 @@ There are a few ways to validate a file. It can be through file extension, MIME 
 
 I upload a jpeg file and put some php code in it with Burpsuite.
 
-![](/Magic/php-reverse-shell-code.png)
+![](/Magic/aaa.png)
 
 This is a simple php code execution script and will run any command through the &quot;cmd&quot; parameter.
 
