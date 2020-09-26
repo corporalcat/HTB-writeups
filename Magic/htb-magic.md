@@ -8,7 +8,8 @@
 
 First, we will run nmap.
 
-![](RackMultipart20200925-4-tfagf1_html_35bb92cb21fa1d06.png)
+![](/Magic/nmap.png)
+
 
 The scan shows 2 ports are open. Port 22 for SSH and port 80 for Apache.
 
