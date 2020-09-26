@@ -1,6 +1,6 @@
 # **HACKTHEBOX – MAGIC WRITEUP**
 
-![](/Magic/logo.png)
+![](/logo.png)
 
 # **IP: 10.10.10.185**
 
