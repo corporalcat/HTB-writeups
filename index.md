@@ -3,6 +3,6 @@ I am a cyber security student in Bina Nusantara University. I like to do ctf esp
 
 [HackTheBox - Magic](https://corporalcat.github.io/Writeups/Magic/)|[HackTheBox - Bashed](https://corporalcat.github.io/Writeups/Bashed/)|[HackTheBox - Optimum](https://corporalcat.github.io/Writeups/Optimum/)|[HackTheBox - Lame](https://corporalcat.github.io/Writeups/Lame/)<br><br>
 
-[HackTheBox - Shocker](https://corporalcat.github.io/Writeups/Shocker/)
+[HackTheBox - Shocker](https://corporalcat.github.io/Writeups/Shocker/)|[HackTheBox - Nibbles](https://corporalcat.github.io/Writeups/Nibbles/)
 
 
