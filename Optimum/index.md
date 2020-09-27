@@ -1,6 +1,6 @@
 # **HACKTHEBOX – OPTIMUM WRITEUP**
 
-![](image/image001.png)
+![](/image/image001.png)
 
 # **IP: 10.10.10.8**
 
