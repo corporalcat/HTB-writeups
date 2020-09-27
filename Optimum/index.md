@@ -1,6 +1,6 @@
 # **HACKTHEBOX – BASHED WRITEUP**
 
-![](RackMultipart20200927-4-1qdqvyu_html_7685cec790fdc2a7.png)
+![](/image/image001.png)
 
 # **IP: 10.10.10.8**
 
