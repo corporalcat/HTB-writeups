@@ -1,6 +1,6 @@
-# **HACKTHEBOX – BASHED WRITEUP**
+# **HACKTHEBOX – OPTIMUM WRITEUP**
 
-![](/image/image001.png)
+![](https://github.com/corporalcat/Writeups/blob/gh-pages/Optimum/image/image001.png)
 
 # **IP: 10.10.10.8**
 
