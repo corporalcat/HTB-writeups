@@ -3,9 +3,6 @@ Hi, I am Denny Lee. I am a cyber security student in Bina Nusantara University. 
 
 
 
-|[HackTheBox - Magic](https://corporalcat.github.io/Writeups/Magic/)|[HackTheBox - Bashed](https://corporalcat.github.io/Writeups/Bashed/)|[HackTheBox - Optimum](https://corporalcat.github.io/Writeups/Optimum/)|[HackTheBox - Lame](https://corporalcat.github.io/Writeups/Lame/)|
-
-
-|[HackTheBox - Shocker](https://corporalcat.github.io/Writeups/Shocker/)|[HackTheBox - Nibbles](https://corporalcat.github.io/Writeups/Nibbles/)|[HackTheBox - Bastard](https://corporalcat.github.io/Writeups/Bastard/)|[HackTheBox - Granny](https://corporalcat.github.io/Writeups/Granny/)|
+|[HackTheBox - Magic](https://dennylee22.github.io/Writeups/Magic/)|[HackTheBox - Bashed](https://dennylee22.github.io/Writeups/Bashed/)|[HackTheBox - Optimum](https://dennylee22.github.io/Writeups/Optimum/)|[HackTheBox - Lame](https://dennylee22.github.io/Writeups/Lame/)|
 
 
