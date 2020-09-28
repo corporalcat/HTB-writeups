@@ -36,7 +36,7 @@ Based off reading this python script ([https://gist.github.com/joenorton8014/19a
 
 So I use smbmap and use the &quot;-u&quot; flag and input the payload.
 
-Setup a listener on my machine and send the patyload.
+Setup a listener on my machine and send the payload.
 
 ![](image/image005.png)
 
