@@ -6,6 +6,6 @@ Hi, I am Denny Lee. I am a cyber security student in Bina Nusantara University. 
   <li><a href="https://dennylee22.github.io/Writeups/Optimum/">HackTheBox - Optimum</a></li>
   <li><a href="https://dennylee22.github.io/Writeups/Lame/">HackTheBox - Lame</a></li>
   <li><a href="https://dennylee22.github.io/Writeups/Remote/">HackTheBox - Remote</a></li>
-  <li><a href="https://dennylee22.github.io/Writeups/Magic/"><img style="width:500px;height:100px;" src="Magic/magic_banner.png"></a></li>
+  <li><a href="https://dennylee22.github.io/Writeups/Magic/"><img src="Magic/magic_banner.png"></a></li>
 </ul>
 
