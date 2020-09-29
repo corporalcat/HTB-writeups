@@ -10,10 +10,10 @@ Hi, I am Denny Lee. I am a cyber security student in Bina Nusantara University. 
 <div class="nowrap">HackTheBox - Remote<div style="text-align: right;"><a href="https://dennylee22.github.io/Writeups/Remote/"><div align="right">View</a></div></div>
 <br><br>
 <ul>
-  <li>List item 1</li>
-  <li>List item 2</li>
-  <li>List item 3</li>
-  <li>List item 4</li>
-  <li>List item 5</li>
+  <li href="https://dennylee22.github.io/Writeups/Magic/">List item 1</li>
+  <li href="https://dennylee22.github.io/Writeups/Bashed/">List item 2</li>
+  <li href="https://dennylee22.github.io/Writeups/Optimum/">List item 3</li>
+  <li href="https://dennylee22.github.io/Writeups/Lame/">List item 4</li>
+  <li href="https://dennylee22.github.io/Writeups/Remote/">List item 5</li>
 </ul>
 
