@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://github.com/dennylee22/Writeups/blob/gh-pages/assets/css/style.css">
 <div class="row">
   <div class="column" style="background-color:#aaa;">
     <h2>Column 1</h2>
