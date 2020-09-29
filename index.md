@@ -3,6 +3,9 @@ Hi, I am Denny Lee. I am a cyber security student in Bina Nusantara University. 
 
 
 
-|[HackTheBox - Magic](https://dennylee22.github.io/Writeups/Magic/)|[HackTheBox - Bashed](https://dennylee22.github.io/Writeups/Bashed/)|[HackTheBox - Optimum](https://dennylee22.github.io/Writeups/Optimum/)|[HackTheBox - Lame](https://dennylee22.github.io/Writeups/Lame/)|
+[HackTheBox - Magic]![View](https://dennylee22.github.io/Writeups/Magic/)
+[HackTheBox - Bashed]![View](https://dennylee22.github.io/Writeups/Bashed/)
+[HackTheBox - Optimum]![View](https://dennylee22.github.io/Writeups/Optimum/)
+[HackTheBox - Lame]![View](https://dennylee22.github.io/Writeups/Lame/)|
 
 
