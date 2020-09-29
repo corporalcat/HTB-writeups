@@ -3,17 +3,17 @@ Hi, I am Denny Lee. I am a cyber security student in Bina Nusantara University. 
 
 
 
-<div class="nowrap">HackTheBox - Magic<div style="text-align: right;"><a href="https://dennylee22.github.io/Writeups/Magic/"><div align="right">View</a></div></div>
-<div class="nowrap">HackTheBox - Bashed<div style="text-align: right;"><a href="https://dennylee22.github.io/Writeups/Bashed/"><div align="right">View</a></div></div>
-<div class="nowrap">HackTheBox - Optimum<div style="text-align: right;"><a href="https://dennylee22.github.io/Writeups/Optimum/"><div align="right">View</a></div></div>
-<div class="nowrap">HackTheBox - Lame<div style="text-align: right;"><a href="https://dennylee22.github.io/Writeups/Lame/"><div align="right">View</a></div></div>
-<div class="nowrap">HackTheBox - Remote<div style="text-align: right;"><a href="https://dennylee22.github.io/Writeups/Remote/"><div align="right">View</a></div></div>
+HackTheBox - Magic<div style="text-align: right;"><a href="https://dennylee22.github.io/Writeups/Magic/"><div align="right">View</a></div>
+HackTheBox - Bashed<div style="text-align: right;"><a href="https://dennylee22.github.io/Writeups/Bashed/"><div align="right">View</a></div>
+HackTheBox - Optimum<div style="text-align: right;"><a href="https://dennylee22.github.io/Writeups/Optimum/"><div align="right">View</a></div>
+HackTheBox - Lame<div style="text-align: right;"><a href="https://dennylee22.github.io/Writeups/Lame/"><div align="right">View</a></div>
+HackTheBox - Remote<div style="text-align: right;"><a href="https://dennylee22.github.io/Writeups/Remote/"><div align="right">View</a></div>
 <br><br>
 <ul>
-  <li href="https://dennylee22.github.io/Writeups/Magic/">List item 1</li>
-  <li href="https://dennylee22.github.io/Writeups/Bashed/">List item 2</li>
-  <li href="https://dennylee22.github.io/Writeups/Optimum/">List item 3</li>
-  <li href="https://dennylee22.github.io/Writeups/Lame/">List item 4</li>
-  <li href="https://dennylee22.github.io/Writeups/Remote/">List item 5</li>
+  <li><a href="https://dennylee22.github.io/Writeups/Magic/">List item 1</a></li>
+  <li><a href="https://dennylee22.github.io/Writeups/Bashed/">List item 1</a></li>
+  <li><a href="https://dennylee22.github.io/Writeups/Optimum/">List item 1</a></li>
+  <li><a href="https://dennylee22.github.io/Writeups/Lame/">List item 1</a></li>
+  <li><a href="https://dennylee22.github.io/Writeups/Remote/">List item 1</a></li>
 </ul>
 
