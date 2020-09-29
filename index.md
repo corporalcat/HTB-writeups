@@ -3,7 +3,7 @@ Hi, I am Denny Lee. I am a cyber security student in Bina Nusantara University. 
 
 
 
-HackTheBox - Magic <div align="right">View</div>
+HackTheBox - Magic ![This text is right aligned.]{: .right}
 HackTheBox - Bashed <div align="right">View</div>
 HackTheBox - Optimum <div align="right">View</div>
 HackTheBox - Lame <div align="right">View</div>
