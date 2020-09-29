@@ -82,7 +82,7 @@ I am going to use winPEAS to scan the box for ways to escalate to root.
 
 winPEAS.exe detected a service called &quot;UsoSvc&quot;, I am going with that.
 
-According to the link given by the winPEAS ([https://book.hacktricks.xyz/windows/windows-local-privilege-escalation#services](https://book.hacktricks.xyz/windows/windows-local-privilege-escalation#services)), if a service has all access, we can modify the binary that is executed by that service.
+According to the link given by the winPEAS ([https://book.hacktricks.xyz/windows/windows-local-privilege-escalation#services](https://book.hacktricks.xyz/windows/windows-local-privilege-escalation#services)), if a service has all access, we can modify the binary path that is executed by that service.
 
 I use msfvenom to create a reverse shell executable.
 
