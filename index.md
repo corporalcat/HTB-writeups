@@ -4,7 +4,7 @@
     <h2>HackTheBox - Magic</h2>
   </div>
   <div class="column" style="background-color:#000000;">
-    <h2HackTheBox - Bashed</h2>
+    <h2>HackTheBox - Bashed</h2>
   </div>
 </div>
 
