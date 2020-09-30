@@ -12,7 +12,7 @@ The URL shows a GET parameter named &quot;q&quot;. When we change the value of &
 
 Because the category of the challenge is SQL injection, I try to do a inject the &quot;q&quot; parameter with &quot;union select 1,2#&quot;. I use 2 columns because I assume that there are 2 columns in the database. A column id and a column for the quotes.
 
-![](image/image002.png)
+![](image/image002.jpg)
 
 I got an error that says no result found, and it looks like all the spaces from the &quot;q&quot; parameter is removed. This is maybe to defend against basic SQL Injection.
 
@@ -26,7 +26,7 @@ Now that we can inject the &quot;q&quot; parameter, we can do injections that ou
 
 I replace 2 from my payload with database() to get the database name.
 
-![](image/image004.png)
+![](image/image004.jpg)
 
 The database name is &quot;sqli\_quote&quot;.
 
@@ -42,6 +42,6 @@ I use the query: /\*\*/union/\*\*/select/\*\*/id,flag/\*\*/from/\*\*/alkdjf4iu#
 
 This query outputs all columns from the table alkdjf4iu, this will only work if the table has 2 columns.
 
-![](image/image006.png)
+![](image/image006.jpg)
 
 And we got the flag!
