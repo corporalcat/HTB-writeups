@@ -2,15 +2,6 @@
 ---
 
 @import "";
-
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  background-color: black;
-  list-style-type: none;
-
-}
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
