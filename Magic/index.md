@@ -105,7 +105,7 @@ Looking at the db.php5 file, we got some credentials.
 
 ![](/db-creds.png)
 
-Using those creds to switch user to &quot;theseus&quot; doesn&#39;t work, But we know this is a database credential, we access the database and get more stuff.
+Using those creds to switch user to &quot;theseus&quot; doesn&#39;t work, But we know this is a database credential, we can access the database and get more information.
 
 But mysql is not installed so I use &quot;mysqldump&quot; instead.
 
