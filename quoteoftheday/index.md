@@ -1,15 +1,8 @@
-## **RINGZER**
-
-# **0**
-
-## **CTF – &quot;QUOTE OF THE DAY&quot; WRITEUP**
+## **RINGZER0CTF – &quot;QUOTE OF THE DAY&quot; WRITEUP**
 
 ## **Category: SQL Injection**
 
-## **LINK:**
-[
-## **https://ringzer0ctf.com/challenges/37**
-](https://ringzer0ctf.com/challenges/37)
+## **LINK: https://ringzer0ctf.com/challenges/37**
 
 The webpage displays a button that says generate. When I click it, it shows a random quote.
 
