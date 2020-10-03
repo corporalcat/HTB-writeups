@@ -8,7 +8,7 @@
     </style>
   </head>
   <body>
-<div markdown="1">
+<div>
 <h1 id="-hackthebox-bashed-writeup-"><strong>HACKTHEBOX – BASHED WRITEUP</strong></h1>
 <p><img src="image001.jpg" alt=""></p>
 <h1 id="-ip-10-10-10-68-"><strong>IP: 10.10.10.68</strong></h1>
