@@ -1,3 +1,14 @@
+<html>
+  <head>
+    <style>
+      body{
+      background-color: black;
+      color: white;
+      }
+    </style>
+  </head>
+  <body>
+<div markdown="1">
 ## **RINGZER0CTF – &quot;QUOTE OF THE DAY&quot; WRITEUP**
 
 ## **Category: SQL Injection**
@@ -45,3 +56,6 @@ This query outputs all columns from the table alkdjf4iu, this will only work if 
 ![](image/image006.jpg)
 
 And we got the flag!
+</div>
+</body>
+</html>
