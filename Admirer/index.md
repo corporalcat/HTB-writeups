@@ -88,15 +88,15 @@ Turns out we can&#39;t access files that is outside a specific directory. Checki
 
 So I use /var/www/html/index.php file to see if my command works.
 
-![](image/image013.png)
+![](image/image014.png)
 
 It worked, and when I open my &quot;aaa&quot; table it shows the index.php file.
 
-![](image/image014.png)
+![](image/image015.png)
 
 Inside the index.php file there is a new credential also belonging to waldo.
 
-![](image/image015.png)
+![](image/image016.png)
 
 So I try ssh with that password and it worked!
 
@@ -104,11 +104,11 @@ So I try ssh with that password and it worked!
 
 I run sudo -l command and use the ssh password, it says that we can run the admin\_tasks.sh file, and we can do SETENV.
 
-![](image/image016.png)
+![](image/image017.png)
 
 Checking the /opt/scripts directory there is a backup.py file.
 
-![](image/image017.png)
+![](image/image018.png)
 
 It backups the content of /var/www/html directory and in admin\_tasks.sh file, the backup.py gets ran in the backup\_web function.
 
@@ -116,11 +116,11 @@ Which means, if we can make the python file do something malicious, we can get r
 
 So I make a file called shutil.py because that is what the backup.py is importing in /dev/shm and put a reverse shell with nc in the make\_archive function.
 
-![](image/image018.png)
+![](image/image019.png)
 
 After that, just setup a listener and run the admin\_tasks file, choose option 6 to run the backup.py.
 
-![](image/image019.png)
+![](image/image020.png)
 
 Wait for a few seconds, and we got root!
 
