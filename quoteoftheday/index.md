@@ -13,7 +13,7 @@
 
 ## **Category: SQL Injection**
 
-## **LINK: **<a href="https://ringzer0ctf.com/challenges/37">## **https://ringzer0ctf.com/challenges/37**</a>
+## **LINK: **<a href="https://ringzer0ctf.com/challenges/37">https://ringzer0ctf.com/challenges/37</a>
 
 The webpage displays a button that says generate. When I click it, it shows a random quote.
 
