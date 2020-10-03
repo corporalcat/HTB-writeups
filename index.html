@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -11,6 +12,43 @@
 }
 body{
     background-color: black;
+}
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color:black;
+  color: green;
+  font-size: 16px;
+  padding: 16px 16px;
+  font-family:"Arial Black";
 }
 
 .grid-container > div {
@@ -30,28 +68,48 @@ h1{
     <h1>Denny Lee's Writeups</h1>
 
     <div class="grid-container">
-        <div>
-            <a href="Admirer/"><img src="logo/admirer.png"></a>
+        <div class="container">
+          <a href="Admirer"><img src="logo/admirer.png" alt="Avatar" class="image"></a>
+            <div class="middle">
+              <div class="text"><b>HacktheBox Admirer</b></div>
+            </div>
         </div>
-        <div>
-            <a href="Magic/"><img src="logo/magic.png"></a>
+        <div class="container">
+          <a href="Magic"><img src="logo/magic.png" alt="Avatar" class="image"></a>
+            <div class="middle">
+              <div class="text"><b>HacktheBox Magic</b></div>
+            </div>
         </div>
-        <div>
-            <a href="Bashed/"><img src="logo/bashed.png"></a>
+        <div class="container">
+          <a href="Remote"><img src="logo/remote.png" alt="Avatar" class="image"></a>
+            <div class="middle">
+              <div class="text"><b>HacktheBox Remote</b></div>
+            </div>
         </div>
-        <div>
-            <a href="Optimum/"><img src="logo/optimum.png"></a>
+        <div class="container">
+          <a href="Bashed"><img src="logo/bashed.png" alt="Avatar" class="image"></a>
+            <div class="middle">
+              <div class="text"><b>HacktheBox Bashed</b></div>
+            </div>
         </div>
-        <div>
-            <a href="Lame/"><img src="logo/lame.png"></a>
+        <div class="container">
+          <a href="Optimum"><img src="logo/optimum.png" alt="Avatar" class="image"></a>
+            <div class="middle">
+              <div class="text"><b>HacktheBox Optimum</b></div>
+            </div>
         </div>
-        <div>
-            <a href="Remote/"><img src="logo/remote.png"></a>
+      <a href="Lame"><div class="container"></a>
+            <img src="logo/lame.png" alt="Avatar" class="image">
+            <div class="middle">
+              <div class="text"><b>HacktheBox Lame</b></div>
+            </div>
         </div>
-        <div>
-            <a href="quoteoftheday/"><img src="logo/rzero.jpg"></a>
+        <div class="container">
+          <a href="quoteoftheday"><img src="logo/rzero.jpg" alt="Avatar" class="image"></a>
+            <div class="middle">
+              <div class="text"><b>Ringzer0ctf Quote of the day</b></div>
+            </div>
         </div>
     </div>
-
 </body>
 </html>
