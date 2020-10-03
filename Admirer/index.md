@@ -12,7 +12,7 @@
  <div markdown="1">
 # **HACKTHEBOX – ADMIRER WRITEUP**
 
-![](../logo/admirer.png)
+![](image/image001.png)
 
 # **IP: 10.10.10.187**
 
@@ -59,6 +59,7 @@ Creds is a short way to say credentials, so I am going to try credentials.txt.
 ![](image/image008.png)
 
 And we got some credentials. There is a wordpress account, so I am going to try to go to wp-login.php to see if there is a login page, but I got a 404.
+# **FOOTHOLD**
 
 After that, I tried the ftp account.
 
@@ -89,6 +90,8 @@ The gobuster found adminer.php, which is interesting.
 I don&#39;t know a lot about adminer, so I google about it and found out that there is a file disclosure vulnerability, not only localhost ([https://sansec.io/research/adminer-4.6.2-file-disclosure-vulnerability](https://sansec.io/research/adminer-4.6.2-file-disclosure-vulnerability)).
 
 We just need to make the adminer connect to us and use LOAD DATA LOCAL to load files from the machine.
+
+# **USER**
 
 The first time I try to execute the sql command, I got an error.
 
