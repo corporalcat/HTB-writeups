@@ -1,3 +1,14 @@
+<html>
+  <head>
+    <style>
+      body{
+      background-color: black;
+      color: white;
+      }
+    </style>
+  </head>
+  <body>
+<div markdown="1">
 # **HACKTHEBOX – BASHED WRITEUP**
 
 ![](image001.jpg)
@@ -51,3 +62,6 @@ I decided to put a python reverse shell payload and setup a listener.
 ![](image009.png)
 
 We got root!
+</div>
+</body>
+</html>
