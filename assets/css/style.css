@@ -8,4 +8,5 @@ display: none;
 
 a.mylist { 
 	display:block; 
+	background-color: red;
 }
