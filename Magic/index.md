@@ -11,7 +11,7 @@
 <div markdown="1">
 # **HACKTHEBOX – MAGIC WRITEUP**
 
-![](logo.png)
+![](logo1.png)
 
 # **IP: 10.10.10.185**
 
