@@ -3,10 +3,9 @@
 @import "{{ site.theme }}";
 
 header {
-
 display: none;
-
 }
+
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
