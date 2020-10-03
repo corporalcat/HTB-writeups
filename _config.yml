@@ -1,5 +1,4 @@
 title: Writeups
 description: Place for me to store my ctf writeups.
 theme: jekyll-theme-hacker
-github:
-  is_project_page: false
+is_project_page: false
