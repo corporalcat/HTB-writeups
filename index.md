@@ -3,11 +3,11 @@
 </head>
 
 <ul>
-  <li><a class="mylist" href="https://dennylee22.github.io/Writeups/Admirer">>HackTheBox - Admirer</a></li>
-  <li><a class="mylist" href="https://dennylee22.github.io/Writeups/Admirer">>HackTheBox - Admirer</a></li>
-  <li><a class="mylist" href="https://dennylee22.github.io/Writeups/Admirer">>HackTheBox - Admirer</a></li>
-  <li><a class="mylist" href="https://dennylee22.github.io/Writeups/Admirer">>HackTheBox - Admirer</a></li>
-  <li><a class="mylist" href="https://dennylee22.github.io/Writeups/Admirer">>HackTheBox - Admirer</a></li>
+  <li><a class="mylist" href="https://dennylee22.github.io/Writeups/Admirer">HackTheBox - Admirer</a></li>
+  <li><a class="mylist" href="https://dennylee22.github.io/Writeups/Admirer">HackTheBox - Admirer</a></li>
+  <li><a class="mylist" href="https://dennylee22.github.io/Writeups/Admirer">HackTheBox - Admirer</a></li>
+  <li><a class="mylist" href="https://dennylee22.github.io/Writeups/Admirer">HackTheBox - Admirer</a></li>
+  <li><a class="mylist" href="https://dennylee22.github.io/Writeups/Admirer">HackTheBox - Admirer</a></li>
  
 </ul>
 <br><br><br><br><br>
