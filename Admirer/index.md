@@ -5,14 +5,14 @@
     background-color: black;
     color: white;
     }
-    
+
   </style>
 </head>
 <body>
  <div markdown="1">
 # **HACKTHEBOX – ADMIRER WRITEUP**
 
-![](image/image001.png)
+![](../logo/admirer.png)
 
 # **IP: 10.10.10.187**
 
