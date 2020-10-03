@@ -1,3 +1,14 @@
+<html>
+  <head>
+    <style>
+      body{
+      background-color: black;
+      color: white;
+      }
+    </style>
+  </head>
+  <body>
+<div markdown="1">
 # **HACKTHEBOX – REMOTE WRITEUP**
 
 ![](image/1.png)
@@ -95,3 +106,6 @@ Use python to host a webserver, download the reverse shell executable to the tar
 Setup a listener on my machine start the service and we got root!
 
 ![](image/16.png)
+</div>
+</body>
+</html>
