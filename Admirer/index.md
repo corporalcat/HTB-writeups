@@ -1,6 +1,6 @@
 # **HACKTHEBOX – ADMIRER WRITEUP**
 
-![](RackMultipart20201003-4-8mopre_html_daf3574b9fff2df2.png)
+![](image/image001.png)
 
 # **IP: 10.10.10.187**
 
@@ -8,11 +8,11 @@
 
 First, I am going to start nmap to scan for open ports.
 
-![](RackMultipart20201003-4-8mopre_html_53331506200f3480.png)
+![](image/image002.png)
 
 There are 3 open ports. Ftp, ssh and http. I am going to start with ftp first.
 
-![](RackMultipart20201003-4-8mopre_html_3d2e10cdd019db38.png)
+![](image/image003.png)
 
 I tried anonymous login, but the login failed. So, until I got some credentials I will move on from ftp.
 
@@ -22,7 +22,7 @@ Opening the web page gives me a bunch of pages.
 
 I try to go to &quot;robots.txt&quot; and it has some interesting things.
 
-![](RackMultipart20201003-4-8mopre_html_cd5de6543e31aa33.png)
+![](image/image004.png)
 
 There is a directory called &quot;/admin-dir&quot;.
 
@@ -30,35 +30,35 @@ I try to go to index.php to see what files the web server are using, and &quot;i
 
 I will start a gobuster on the website to look for directories and hidden php files, I will also start a gobuster on the &quot;/admin-dir&quot; directory.
 
-![](RackMultipart20201003-4-8mopre_html_f28e5fcf0ffb2a2f.png)
+![](image/image005.png)
 
-![](RackMultipart20201003-4-8mopre_html_8230b1abf66698b5.png)
+![](image/image006.png)
 
 The gobuster on admin-dir directory shows us there is a contacts.txt files, that is very interesting.
 
 Opening the file shows us a bunch of emails.
 
-![](RackMultipart20201003-4-8mopre_html_b46c5fe0931af9c0.png)
+![](image/image007.png)
 
 The robots.txt says there are contacts and creds in admin-dir, and we got a file called contacts.txt, so I am going to try creds.txt, and I got a 404.
 
 Creds is a short way to say credentials, so I am going to try credentials.txt.
 
-![](RackMultipart20201003-4-8mopre_html_a3bdf4959921a824.png)
+![](image/image008.png)
 
 And we got some credentials. There is a wordpress account, so I am going to try to go to wp-login.php to see if there is a login page, but I got a 404.
 
 After that, I tried the ftp account.
 
-![](RackMultipart20201003-4-8mopre_html_3d7970313f009fe.png)
+![](image/image009.png)
 
 I got logged in and see that there are 2 files. I download both to be able to see their content.
 
-![](RackMultipart20201003-4-8mopre_html_d777fb1c91835eab.png)
+![](image/image010.png)
 
 Seeing the index.php file, there is a credential.
 
-![](RackMultipart20201003-4-8mopre_html_437cb783de4c7885.png)
+![](image/image011.png)
 
 I try to SSH into the box, but the credential doesn&#39;t work.
 
@@ -80,23 +80,23 @@ We just need to make the adminer connect to us and use LOAD DATA LOCAL to load f
 
 The first time I try to execute the sql command, I got an error.
 
-![](RackMultipart20201003-4-8mopre_html_7ff6628616f1fc70.png)
+![](image/image012.png)
 
 Turns out we can&#39;t access files that is outside a specific directory. Checking the info.php file, we can see that open\_basedir is set to &quot;/var/www/html&quot; only.
 
-![](RackMultipart20201003-4-8mopre_html_815f5bc7c4fc9305.png)
+![](image/image013.png)
 
 So I use /var/www/html/index.php file to see if my command works.
 
-![](RackMultipart20201003-4-8mopre_html_df89de5c574334d0.png)
+![](image/image013.png)
 
 It worked, and when I open my &quot;aaa&quot; table it shows the index.php file.
 
-![](RackMultipart20201003-4-8mopre_html_b30f314beb952f60.png)
+![](image/image014.png)
 
 Inside the index.php file there is a new credential also belonging to waldo.
 
-![](RackMultipart20201003-4-8mopre_html_60a6887ce1711f69.png)
+![](image/image015.png)
 
 So I try ssh with that password and it worked!
 
@@ -104,11 +104,11 @@ So I try ssh with that password and it worked!
 
 I run sudo -l command and use the ssh password, it says that we can run the admin\_tasks.sh file, and we can do SETENV.
 
-![](RackMultipart20201003-4-8mopre_html_f770e9bd0c7d7687.png)
+![](image/image016.png)
 
 Checking the /opt/scripts directory there is a backup.py file.
 
-![](RackMultipart20201003-4-8mopre_html_d75cb6f2e27c063c.png)
+![](image/image017.png)
 
 It backups the content of /var/www/html directory and in admin\_tasks.sh file, the backup.py gets ran in the backup\_web function.
 
@@ -116,12 +116,12 @@ Which means, if we can make the python file do something malicious, we can get r
 
 So I make a file called shutil.py because that is what the backup.py is importing in /dev/shm and put a reverse shell with nc in the make\_archive function.
 
-![](RackMultipart20201003-4-8mopre_html_522eb5a7401fb620.png)
+![](image/image018.png)
 
 After that, just setup a listener and run the admin\_tasks file, choose option 6 to run the backup.py.
 
-![](RackMultipart20201003-4-8mopre_html_3ad1a6822014d32.png)
+![](image/image019.png)
 
 Wait for a few seconds, and we got root!
 
-![](RackMultipart20201003-4-8mopre_html_7d1a5c25fa00c91.png)
+![](image/image021.png)
