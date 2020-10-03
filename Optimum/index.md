@@ -1,3 +1,14 @@
+<html>
+  <head>
+    <style>
+      body{
+      background-color: black;
+      color: white;
+      }
+    </style>
+  </head>
+  <body>
+<div markdown="1">
 # **HACKTHEBOX – OPTIMUM WRITEUP**
 
 ![](image/image001.png)
@@ -86,3 +97,6 @@ I keep getting an error.
 I google the error and it keeps erroring out because I was using a 32-bit powershell. So I just switch to a 64-bit one and we got root!
 
 ![](image/image027.png)
+</div>
+</body>
+</html>
