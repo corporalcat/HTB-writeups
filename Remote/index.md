@@ -11,7 +11,7 @@
 <div markdown="1">
 # **HACKTHEBOX – REMOTE WRITEUP**
 
-![](image/1.png)
+![](image/logo.png)
 
 # **IP: 10.10.10.180**
 
