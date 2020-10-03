@@ -1,5 +1,5 @@
 <head>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="/Writeups/assets/css/style.css">
 </head>
 
 <ul>
