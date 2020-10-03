@@ -1,14 +1,7 @@
----
----
-@import "{{ site.theme }}";
-
-header {
-display: none;
-}
 
 a.mylist { 
 	display:block; 
 	background-color: red;
 }
 
-body {background-color: red;}
+body {background-color: black;}
