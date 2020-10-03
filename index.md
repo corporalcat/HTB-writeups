@@ -1,5 +1,5 @@
 <head>
-  <link rel="stylesheet" href="https://github.com/dennylee22/Writeups/blob/gh-pages/assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <div class="row">
