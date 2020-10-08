@@ -10,9 +10,9 @@
 </head>
 <body>
  <div markdown="1">
-# **HACKTHEBOX – ADMIRER WRITEUP**
+# **liat_jadwal.py**
 
-![](image/image001.png)
+![](sc_liat_kelas.png)
 
 # **IP: 10.10.10.187**
 
