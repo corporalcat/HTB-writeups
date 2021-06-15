@@ -3,7 +3,7 @@
 
 First, I ran Nmap to scan for open ports on the box.
 Nmap results:
-![[Pasted image 20210615193712.png]]
+![](Pasted image 20210615193712.png)
 
 HTTP has a wider attack surface so I am enumerating it first.
 Opening the page gives us a static html page.
