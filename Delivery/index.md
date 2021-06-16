@@ -7,7 +7,7 @@ Nmap results:
 
 HTTP has a wider attack surface so I am enumerating it first.
 Opening the page gives us a static html page.
-![[Pasted image 20210615193922.png]]
+![[Pasted%20image%2020210615193922.png]]
 
 While browsing the page, I found 2 new web pages in the machine which are **helpdesk.delivery.htb** and **delivery.htb**.  After adding them to my /etc/hosts file, I can access those 2 pages.
 
