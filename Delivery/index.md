@@ -1,6 +1,6 @@
 <style> body{ background-color: black; color: white; } </style>
 
-![](https://www.hackthebox.eu/storage/avatars/c55af6eadd5b60bac831d73c1a951327.png)
+<img src="https://www.hackthebox.eu/storage/avatars/c55af6eadd5b60bac831d73c1a951327.png">
 # Hackthebox - Delivery
 ### IP: 10.129.59.190
 
