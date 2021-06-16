@@ -24,6 +24,7 @@ The helpdesk will give us an email with the machine's domain.
 ![](Pasted%20image%2020210615202254.png)
 
 Then we can register the email on the **delivery.htb** page.
+
 ![](Pasted%20image%2020210615202337.png)
 
 Verify the email address.
