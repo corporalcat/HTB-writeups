@@ -34,6 +34,7 @@ Then login to Mattermost. After logging in to Mattermost, you can see a channel 
 ![](Pasted%20image%2020210615195714.png)
 
 you can ssh with those credentials and got the user.txt.
+
 ![](Pasted%20image%2020210615195805.png)
 
 Now for the privesc, the internal channel on the mattermost page gives us a hint on the root password which is a variant of **PleaseSubscribe!**. We can use hashcast to perform a rule based attack on this password.
@@ -52,4 +53,5 @@ Run the tool and you will get a successful password.
 ![](Pasted%20image%2020210615201956.png)
 
 Switch to the root user and got the root flag.
+
 ![](Pasted%20image%2020210615202059.png)
