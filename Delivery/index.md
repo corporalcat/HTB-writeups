@@ -12,10 +12,10 @@ Opening the page gives us a static html page.
 While browsing the page, I found 2 new web pages in the machine which are **helpdesk.delivery.htb** and **delivery.htb**.  After adding them to my /etc/hosts file, I can access those 2 pages.
 
 helpdesk.delivery.htb:
-![[Pasted image 20210615195033.png]]
+![](Pasted%20image%2020210615195033.png)
 
 delivery.htb:
-![[Pasted image 20210615195120.png]]
+![](Pasted%20image%2020210615195120.png)
 
 We can get an account to login by opening a ticket on the helpdesk.
 ![[Pasted image 20210615202233.png]]
