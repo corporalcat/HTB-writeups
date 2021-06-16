@@ -1,3 +1,4 @@
+<style> body{ background-color: black; color: white; } </style>
 # Hackthebox - Delivery
 ### IP: 10.129.59.190
 
