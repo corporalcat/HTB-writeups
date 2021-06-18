@@ -3,10 +3,10 @@
 
 First I ran Nmap to scan for open ports.
 Nmap result:
-![](Scriptkiddie/nmap.png)
+![](nmap.png)
 
 Port 5000 which is HTTP is open, So I open it using my browser and got to this page.
-![](Scriptkiddie/webpage.png)
+![](webpage.png)
 
 The website serves me 3 tools which is Nmap, MSFVenom and Searchsploit. I found a CVE(CVE-2020-7384) for MSFVenom which leads to command execution. I use a python script from https://github.com/justinsteven/advisories/blob/master/2020_metasploit_msfvenom_apk_template_cmdi.md for the exploit. 
 
