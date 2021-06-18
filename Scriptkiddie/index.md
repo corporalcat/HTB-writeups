@@ -1,4 +1,5 @@
-# Hackthebox - Scriptkiddie
+<style> body{ background-color: black; color: white; } </style>
+# **Hackthebox - Scriptkiddie**
 
 First I ran Nmap to scan for open ports.
 Nmap result:
