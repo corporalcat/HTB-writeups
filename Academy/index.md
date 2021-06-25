@@ -15,6 +15,7 @@ The websites uses php files based on the login and register link so I am startin
 ![](gobuster.png)
 
 After trying weak credentials and SQL injection on login.php which didn't work, I go to register.php and view the source and found a hidden input type called role id.
+
 ![](roleidsource.png)
 
 I changed the role id's value to 1 and register an account.
@@ -24,6 +25,7 @@ I try logging in through login.php, but the websites is just a static page which
 ![](admingobuster.png)
 
 Opening the website gives me a login page. I can log in with the account I just registered. After logging in, it gives me this page which leaks a new host.
+
 ![](loggedinadmin.png)
 
 After adding it to my hosts file, I open the page and it just gives me an error page from Laravel which is a php framework for websites.
@@ -42,6 +44,7 @@ I found a 2 passwords running a grep command on the academy folder. 1 is plain t
 ![](passwords.png)
 
 I cracked the hash with john and got the password is "secret".
+
 ![](johncrack.png)
 
 Looking at the **/home** directory, there are 6 users and I have 2 passwords and SSH is open on port 22. So I use Hydra to bruteforce ssh with the credenrtials I have and got 1 working credential from the user cry0l1t3.
@@ -57,9 +60,10 @@ Looking through the output of linpeas, it tells me that the user is part of the 
 ![](varloglinpeas.png)
 
 I use aureport which produces reports and summaries from the audit.log files. Using the **--tty** to see what is typed into the terminal and got a password for mrb3n.
+
 ![](sub3n.png)
 
-Running **sudo -l**  as mrb3n tells me that mrb3n can run composer as root.  So I go to gtfobins(https://gtfobins.github.io/gtfobins/composer/) and use the command from there.
+Running **sudo -l**  as mrb3n tells me that mrb3n can run composer as root.  So I go to gtfobins (https://gtfobins.github.io/gtfobins/composer/) and use the command from there.
 ![](composer.png)
 
 Running the commands and it spawns a shell as root.
