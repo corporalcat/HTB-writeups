@@ -47,6 +47,7 @@ Searching through the backup directory, I got a password from the **gitlab.rb** 
 ![](password.png)
 
 I try switching to root and it worked.
+
 ![](dockerroot.png)
 
 But right now, i am just root in a docker container, so I run linpeas again for enumeration.
@@ -61,4 +62,5 @@ But right now, i am just root in a docker container, so I run linpeas again for 
  ![](chmod.png)
  
  SSH into the box and got a shell as root.
+ 
  ![](ssh.png)
