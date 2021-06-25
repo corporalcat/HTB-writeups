@@ -20,6 +20,7 @@ I got a ping back which means the exploit works!
 ![](pinged.png)
 
 I created a bash script for my reverse shell.
+
 ![](bashscript.png)
 
 Change the payload command to curling my script and pipe it to bash.
