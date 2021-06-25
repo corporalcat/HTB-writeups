@@ -1,3 +1,4 @@
+<style> body{ background-color: black; color: white; } </style>
 # Hackthebox - Ready
 
 FIrst I run Nmap to scan for open ports.
