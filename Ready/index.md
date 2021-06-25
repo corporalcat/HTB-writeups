@@ -28,6 +28,7 @@ I use Burpsuite to craft the payload. I command the server to curl to my machine
 ![](burpsuitecurl.png)
 
 I send the request and I got a hit to my machine.
+
 ![](curled.png)
 
 After confirming the payload works, now I craft a payload for a reverse shell.
