@@ -54,7 +54,7 @@ So I ran the metasploit as root.
 ![](msfran.png)
 
 Execute bash from inside metasploit and got a shell as root.
-![](Scriptkiddie/rooted.png)
+![](rooted.png)
 
 
 
