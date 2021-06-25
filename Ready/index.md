@@ -3,7 +3,7 @@
 
 FIrst I run Nmap to scan for open ports.
 Nmap result:
-![](nmap.png)
+<kbd> ![](nmap.png) </kbd>
 
 There is HTTP on port 5080, So I open the web page and got this page.
 ![](webpage.png)
