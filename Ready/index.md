@@ -50,7 +50,7 @@ I try switching to root and it worked.
 
 ![](dockerroot.png)
 
-But right now, i am just root in a docker container, so I run linpeas again for enumeration.
+But right now, I am just root in a docker container, so I run linpeas again for enumeration.
 ![](sda.png)
  Linpeas tells me that **/dev/sda** which is a hard disk is present, After researching a bit, I find an article (https://book.hacktricks.xyz/linux-unix/privilege-escalation/docker-breakout#i-own-root) that talks about how to break out of containers which also have /dev/sda present. So I follow the article and run the commands and got the root flag.
  ![](rooted.png)
