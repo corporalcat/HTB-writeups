@@ -45,7 +45,7 @@ Now I need to enumerate as the user nadav, so I use linpeas, but I didn't get an
 ![](viminfo.png)
 
 Looking at the content, there is USBCreator.
-![](usbcreator)
+![](usbcreator.png)
 
 After searching a bit, I find this article (https://unit42.paloaltonetworks.com/usbcreator-d-bus-privilege-escalation-in-ubuntu-desktop/) that shows how to privesc with USBCreator. Basically, you can copy any file regardless of who owns it to anywhere you want. So I copied root's SSH key to nadav's home directory.
 ![](usbcreatorcopy.png)
