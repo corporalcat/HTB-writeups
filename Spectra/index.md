@@ -1,4 +1,4 @@
-# hackthebox - Spectra
+# Hackthebox - Spectra
 
 First, I run nmap to scan for open ports.
 ![](nmap.png)
