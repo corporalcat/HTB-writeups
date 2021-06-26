@@ -36,7 +36,7 @@ I also tried ssh but it also didn't work. So I go into the Wordpress login page,
 After logging in, I look back to Wpscan and it tells me that the Wordpress version is outdated and is insecure.
 ![](wpsiteoutdated.png)
 
-I use metasploit to upload a shell and get a reverse shell as the user **nginx**.
+But I already got administrator in Wordpress, so I use metasploit to upload a shell and get a reverse shell as the user **nginx**.
 ![](metasploit.png)
 
 Looking at the **/opt** directory, there is an interesting file called "autologin.conf.orig".
