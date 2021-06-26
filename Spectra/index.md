@@ -35,12 +35,14 @@ After loggin in, I look back to wpscan and it tells us that the Wordpress versio
 ![](wpsiteoutdated.png)
 
 I use metasploit to upload a shell and get a reverse shell as the user **nginx**.
-![](metasploit.png)\
+![](metasploit.png)
 
 Looking at the **/opt** directory, there is an interesting file called "autologin.conf.orig".
+
 ![](opt.png)
 
 Looking at the content of the files, there is another insteresting directory called "/etc/autologin". Inside there is a file called passwd which contains a password.
+
 ![](autologin.png)
 
 Looking at /etc/passwd, there is another user called **katie**, I try to ssh in with that password for the user katie and I got the user flag.
