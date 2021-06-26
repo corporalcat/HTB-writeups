@@ -1,3 +1,4 @@
+<style> body{ background-color: black; color: white; } </style>
 # Hackthebox - Spectra
 
 First, I run nmap to scan for open ports.
