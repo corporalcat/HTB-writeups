@@ -41,6 +41,7 @@ The user Paul has an SSH key in the **.ssh** directory, and an SSH session will 
 ![](sshnadav.png)
 
 Now I need to enumerate as the user nadav, so I use linpeas, but I didn't get anything interesting. So I started to poke around and then I notice the **.viminfo** file is not empty.
+
 ![](viminfo.png)
 
 Looking at the content, there is USBCreator.
