@@ -1,3 +1,4 @@
+<style> body{ background-color: black; color: white; } </style>
 # Hackthebox - Passage
 
 First I run Nmap. Nmap result:
