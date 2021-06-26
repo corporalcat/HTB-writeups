@@ -46,16 +46,19 @@ Looking at the content of the files, there is another insteresting directory cal
 ![](autologin.png)
 
 Looking at /etc/passwd, there is another user called **katie**, I try to ssh in with that password for the user katie and I got the user flag.
-![](Spectra/userflag.png)
+![](userflag.png)
 
 The user katie can run a binary with sudo, which is very interesting.
-![](Spectra/sudo-l.png)
+![](sudo-l.png)
 
 After searching about this binary, this binary manages services in "/etc/init/". We can edit the service to run any command we want as root because we are using sudo. Running "sudo /sbin/initctl list" will list all the services. I chose to edit the test service and just give the root flag to katie's home directory.
+
 ![](rootflag.png)
 
 Restart the service.
+
 ![](servstart.png)
 
 we got the root flag!
+
 ![](root.png)
