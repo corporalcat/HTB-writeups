@@ -22,6 +22,7 @@ I run wpscan to find informartion about the wordpress site.
 ![](wpscan.png)
 
 Then I enumerate the testing page, and there is directory listing enabled on the directory. There is an interesting file called **wp-config.php.save**.
+
 ![](directorylisting.png)
 
 After viewing the content of the file, I got a credential for the database.
