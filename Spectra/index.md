@@ -33,7 +33,7 @@ I tried to connect to MySQL on port 3306 with those credentials and it didn't wo
 
 I also tried ssh but it also didn't work. So I go into the Wordpress login page, the devtest user doesn't work, but the user **administrator** with the password works and I was logged in to wp-admin.
 
-After loggin in, I look back to wpscan and it tells us that the Wordpress version is outdated and is insecure.
+After logging in, I look back to Wpscan and it tells me that the Wordpress version is outdated and is insecure.
 ![](wpsiteoutdated.png)
 
 I use metasploit to upload a shell and get a reverse shell as the user **nginx**.
