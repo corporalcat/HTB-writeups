@@ -1,12 +1,12 @@
 # hackthebox - Spectra
 
 First, I run nmap to scan for open ports.
-![](Spectra/nmap.png)
+![](nmap.png)
 
 There are 3 open ports, which is ssh, HTTP and MySQL. HTTP is more familiar to me and has a wider attack surface so I enumerate the HTTP web page first.
 
 Upon opening the page, I got to this web page.
-![](Spectra/webpage.png)
+![](webpage.png)
 
 The links inside the page points to **spectra.htb**, so I added that name to my hosts file on "/etc/hosts".
 ![](hosts.png)
@@ -57,4 +57,3 @@ Restart the service.
 
 we got the root flag!
 ![](root.png)
-
