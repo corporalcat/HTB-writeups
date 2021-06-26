@@ -53,7 +53,7 @@ Looking at /etc/passwd, there is another user called **katie**, I try to ssh in 
 The user katie can run a binary with sudo, which is very interesting.
 ![](sudo-l.png)
 
-After searching about this binary, i found an article (https://isharaabeythissa.medium.com/sudo-privileges-at-initctl-privileges-escalation-technique-ishara-abeythissa-c9d44ccadcb9) that says this binary manages services in "/etc/init/". We can edit the service to run any command we want as root because we are using sudo. Running "sudo /sbin/initctl list" will list all the services. I chose to edit the test service and just give the root flag to katie's home directory.
+After searching about this binary, I found an article (https://isharaabeythissa.medium.com/sudo-privileges-at-initctl-privileges-escalation-technique-ishara-abeythissa-c9d44ccadcb9) that says this binary manages services in "/etc/init/". We can edit the service to run any command we want as root because we are using sudo. Running "sudo /sbin/initctl list" will list all the services. I chose to edit the test service and just give the root flag to katie's home directory.
 
 ![](rootflag.png)
 
