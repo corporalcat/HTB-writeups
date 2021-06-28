@@ -43,7 +43,7 @@ Then there is the backup file. The usual syntax for a backfile is **filename.bak
 ![](backupfile.png)
 
 I download the file and the content of it.
-```bash
+```php
 <?php
 
 class DatabaseExport
