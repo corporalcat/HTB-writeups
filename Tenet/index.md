@@ -36,7 +36,7 @@ I added **tenet.htb** to my hosts file and the page is working. Next I startup a
 I click through the website and see an interesting comment that hints at a php file and a backup file.
 ![](comment.png)
 
-I try accessing the **sator.php*  file and got a hit.
+I try accessing the **sator.php*  file and got a hit.                                                                              
 ![](sator.png)
 
 Then there is the backup file. The usual syntax for a backfile is **filename.bak**. So I try accessing **sator.php.bak** and it worked!
@@ -98,7 +98,7 @@ Put the payload to the GET parameter.
 Test the file and I got command execution.
 ![](whoamirce.png)
 
-I execute a reverse shell bash command.
+I execute a reverse shell bash command.                                                                                                   
 ![](burpshell.png)
 
 Setup a listener and got a shell as **www-data**.
