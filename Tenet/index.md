@@ -3,7 +3,7 @@
 </style>
 # Hackthebox - Tenet
 First I run Nmap to scan for open ports.
-```php
+```zsh
 # Nmap 7.91 scan initiated Sun Jun 27 14:19:15 2021 as: nmap -sC -sV -oA nmap/nmap 10.129.129.20
 Nmap scan report for 10.129.129.20
 Host is up (0.17s latency).
