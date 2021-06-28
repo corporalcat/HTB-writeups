@@ -1,6 +1,5 @@
 <style> 
 	body{ background-color: black; color: white; }
-	.watch-out{ background-color: black;}
 </style>
 # Hackthebox - Tenet
 First I run Nmap to scan for open ports.
