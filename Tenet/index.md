@@ -1,6 +1,6 @@
 <style> 
 	body{ background-color: black; color: white; } 
-	code{ background-color: #4d4d4d; }
+	code{ background-color: black; }
 </style>
 # Hackthebox - Tenet
 First I run Nmap to scan for open ports.
