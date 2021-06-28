@@ -1,6 +1,6 @@
 <style> 
 	body{ background-color: black; color: white; } 
-	bash{background-color:powderblue;}
+	code{background-color: 	#A9A9A9;}
 </style>
 # Hackthebox - Tenet
 First I run Nmap to scan for open ports.
