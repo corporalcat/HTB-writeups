@@ -101,13 +101,13 @@ Test the file and I got command execution.
 I execute a reverse shell bash command.                                                                                                   
 ![](burpshell.png)
 
-Setup a listener and got a shell as **www-data**.
+Setup a listener using nc and got a shell as **www-data**.                                                            
 ![](shelwww.png)
 
-Next I try finding config files and got **wp-config**. I try searching for a password and got one. I also check the **/home** directory for potential usernames.
+Next I try finding config files and got **wp-config**. I try searching for a password and got one. I also check the **/home** directory for potential usernames that I can use to pair with the password.
 ![](grepconfig.png)
 
-I try SSH into the box with the user neil and the password above and got a shell as the user neil.
+I try SSH into the box with the user neil and the password above and got a shell as the user neil.                                  
 ![](userflag.png)
 
 Now I run **sudo -l** as the user neil and he can run **enableSSH.sh** as sudo.
