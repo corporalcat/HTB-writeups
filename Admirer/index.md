@@ -1,15 +1,3 @@
-<html>
-<head>
-  <style>
-    body{
-    background-color: black;
-    color: white;
-    }
-
-  </style>
-</head>
-<body>
- <div markdown="1">
 # **HACKTHEBOX – ADMIRER WRITEUP**
 
 ![](image/image001.png)
@@ -140,6 +128,3 @@ After that, just setup a listener and run the admin\_tasks file, choose option 6
 Wait for a few seconds, and we got root!
 
 ![](image/image021.png)
-</div>
-</body>
-</html>
