@@ -92,7 +92,7 @@ print urlencode(serialize(new DatabaseExport));
 Ran the script.
 ![](phpexploit.png)
 
-Put the payload to the GEt parameter.
+Put the payload to the GET parameter.
 ![](getparam.png)
 
 Test the file and I got command execution.
