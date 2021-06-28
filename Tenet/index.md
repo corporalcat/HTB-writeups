@@ -1,4 +1,7 @@
-<style> body{ background-color: black; color: white; } </style>
+<style> 
+	body{ background-color: black; color: white; } 
+	bash{background-color:powderblue;}
+</style>
 # Hackthebox - Tenet
 First I run Nmap to scan for open ports.
 ```bash
@@ -114,7 +117,7 @@ Now I run **sudo -l** as the user neil and he can run **enableSSH.sh** as sudo.
 ![](sudo-l.png)
 
 I outputed the content of the file and analyze what it does.
-```bash style="background-color:powderblue;"
+```bash
 #!/bin/bash
 
 checkAdded() {
