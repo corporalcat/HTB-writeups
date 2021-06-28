@@ -4,7 +4,7 @@
 # Hackthebox - Tenet
 First I run Nmap to scan for open ports.
 <div style="background-color: rgb(50, 50, 50);">
-```bash
+``bash
 # Nmap 7.91 scan initiated Sun Jun 27 14:19:15 2021 as: nmap -sC -sV -oA nmap/nmap 10.129.129.20
 Nmap scan report for 10.129.129.20
 Host is up (0.17s latency).
@@ -22,7 +22,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 # Nmap done at Sun Jun 27 14:19:31 2021 -- 1 IP address (1 host up) scanned in 15.52 seconds
-```
+``
 </div>
 	
 Port 80 which is HTTP is open so I open the page and got only Apache ubuntu default page.
@@ -40,7 +40,7 @@ I added **tenet.htb** to my hosts file and the page is working. Next I startup a
 I click through the website and see an interesting comment that hints at a php file and a backup file.
 ![](comment.png)
 
-I try accessing the **sator.php*  file and got a hit.                                                                              
+I try accessing the **sator.php**  file and got a hit.                                                                              
 ![](sator.png)
 
 Then there is the backup file. The usual syntax for a backfile is **filename.bak**. So I try accessing **sator.php.bak** and it worked!
