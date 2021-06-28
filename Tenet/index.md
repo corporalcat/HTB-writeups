@@ -1,12 +1,7 @@
 <style> 
-	body{ background-color: black; color: white; } 
+	body{ background-color: black; color: white; }
+	.watch-out{ background-color: black;}
 </style>
-```{css, echo=FALSE}
-.watch-out {
-  background-color: black;
-
-}
-```
 # Hackthebox - Tenet
 First I run Nmap to scan for open ports.
 ```bash {class.source="watch-out"}
