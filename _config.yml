@@ -3,3 +3,4 @@ description: Place for me to store my ctf writeups.
 github:
   is_project_page: false
 markdown: GFM
+theme: minima
