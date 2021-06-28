@@ -114,7 +114,7 @@ Now I run **sudo -l** as the user neil and he can run **enableSSH.sh** as sudo.
 ![](sudo-l.png)
 
 I outputed the content of the file and analyze what it does.
-```bash
+```bash style="background-color:powderblue;"
 #!/bin/bash
 
 checkAdded() {
