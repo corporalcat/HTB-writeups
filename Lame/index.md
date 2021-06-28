@@ -1,14 +1,3 @@
-<html>
-  <head>
-    <style>
-      body{
-      background-color: black;
-      color: white;
-      }
-    </style>
-  </head>
-  <body>
-<div markdown="1">
 # **HACKTHEBOX – LAME WRITEUP**
 
 ![](image/image001.png)
@@ -54,6 +43,3 @@ Setup a listener on my machine and send the payload.
 We got root!
 
 ![](image/image006.png)
-</div>
-</body>
-</html>
