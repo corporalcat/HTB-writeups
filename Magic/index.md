@@ -1,14 +1,4 @@
-<html>
-  <head>
-    <style>
-      body{
-      background-color: black;
-      color: white;
-      }
-    </style>
-  </head>
-  <body>
-<div markdown="1">
+
 # **HACKTHEBOX – MAGIC WRITEUP**
 
 ![](logo1.png)
@@ -161,6 +151,3 @@ Then I modify the $PATH and add the directory where my &quot;free&quot; script i
 Then I setup a listener on port 9002 and run the sysinfo binary and we got root!
 
 ![](/root.png)
-</div>
-</body>
-</html>
