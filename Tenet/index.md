@@ -3,7 +3,7 @@
 </style>
 ```{css, echo=FALSE}
 .watch-out {
-  background-color: #303030;
+  background-color: black;
 
 }
 ```
