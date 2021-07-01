@@ -22,7 +22,7 @@ Port 8080 which is HTTP is open, so I open the webpage and got this.
 Next I started a gobuster to find directories.
 ![](Ophiuchi/gobuster.png)
 
-I try clicking around the website and see that it is a YAML parser. I try putting in some stuff but always got a message saying the feature is disabled.
+I try clicking around the website and see that it is a YAML parser. I try putting in some stuff but always got a message saying the feature is disabled.                              
 ![](disabled.png)
 
 I started searching about "YAML deserilization exploit" and got an article (https://swapneildash.medium.com/snakeyaml-deserilization-exploited-b4a2c5ac0858). I just try running the exploit blindly just to see if it works.
@@ -49,7 +49,7 @@ I convert the java file to a class file.
 Setup a python server to host my class file.
 ![](python3server.png)
 
-Send the YAMl payload to the web server.
+Send the YAML payload to the web server.                                                                                      
 ![](payload2.png)
 
 I got a curl back from the box to my machine.
