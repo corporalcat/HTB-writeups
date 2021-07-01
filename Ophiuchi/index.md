@@ -118,7 +118,7 @@ func main() {
 }
 ```
 
-Its calling **deploy.sh** and **main.wasm** but isn't using it's absolutr path. Which means I can make the script call my files instead.
+Its calling **deploy.sh** and **main.wasm** but isn't using absolute paths. Which means I can make the script call my files instead.
 
 I go to **/dev/shm** and created **deploy.sh** file.
 ```bash
