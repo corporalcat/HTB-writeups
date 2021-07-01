@@ -81,10 +81,10 @@ Next I try looking through the conf directory in tomcat's home directory and got
 ![](adminpass.png)
 
 I try SSH to the box as admin with that password and got in.
-![](Ophiuchi/userflag.png)
+![](userflag.png)
 
 I try running **sudo -l** and the user admin can execute a file written in go.
-![](Ophiuchi/sudo-l.png)
+![](sudo-l.png)
 
 I look at the contents of the file and try to analyse what it does.
 ```bash
@@ -177,4 +177,4 @@ Execute the full sudo command.
 ![](runsudo.png)
 
 And I got a shell as root.
-![](Ophiuchi/rooted.png)
+![](rooted.png)
