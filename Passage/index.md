@@ -28,7 +28,7 @@ The problem is the shell is not persistent, so I use a bash reverse shell comman
 Setup a listener and got the shell.
 ![](bashrevshell.png)
 
-Next, the exploit script also have a function called "extract_crdentials". It goes to a file which contains the user object encoded in base64. The function decoded and gives us the hashes of the users password.
+Next, the exploit script also have a function called "extract_credentials". It goes to a file which contains the user object encoded in base64. The function decoded and gives us the hashes of the users password.
 ![](hashes.png)
 
 I go to https://crackstation.net/ to crack the hashes and got 2 potential passwords.
