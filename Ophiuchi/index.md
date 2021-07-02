@@ -17,10 +17,10 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 Port 8080 which is HTTP is open, so I open the webpage and got this.
-![](Ophiuchi/webpage.png)
+![](webpage.png)
 
 Next I started a gobuster to find directories.
-![](Ophiuchi/gobuster.png)
+![](gobuster.png)
 
 I try clicking around the website and see that it is a YAML parser. I try putting in some stuff but always got a message saying the feature is disabled.                              
 ![](disabled.png)
