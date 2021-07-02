@@ -176,5 +176,5 @@ curl the new wasm file
 Execute the full sudo command.
 ![](runsudo.png)
 
-And I got a shell as root.
+And I got a shell as root.                                                                                                                 
 ![](rooted.png)
