@@ -80,7 +80,7 @@ Setup a listener, send the payload and got a shell as the tomcat user.
 Next I try looking through the conf directory in tomcat's home directory and got a credentials for the user admin.
 ![](adminpass.png)
 
-I try SSH to the box as admin with that password and got in.
+I try SSH to the box as admin with that password and got in.                                                                          
 ![](userflag.png)
 
 I try running **sudo -l** and the user admin can execute a file written in go.
