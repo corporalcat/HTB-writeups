@@ -94,7 +94,7 @@ I connect to the server using redis-cli, and dump all the keys available.
 When getting one of the key, it gives me an encrypted password.
 ![](enpass.png)
 
-I can't identify what kind of encryption this is, but the exploit from PortableKanban says that it can decrypt passwords from the the PortableKanban.pk3 file. So I just take a wild guess and try to decrypt it using the exploit script.
+I can't identify what kind of encryption this is, but the exploit from PortableKanban says that it can decrypt passwords from he PortableKanban.pk3 file. So I just take a wild guess and try to decrypt it using the exploit script.
 
 I modify the script to just decrypt the encrypted password from redis.
 ```bash
