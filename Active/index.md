@@ -52,7 +52,7 @@ I use gpp-decrypt and got the password for the account **svc_tgs**.
 After getting the svc_tgs credentials, I can log in to SMB and get the user flag. Next I try checking if there is any kerberoastable users in the box. I use impacket to do it and got a TGS (Ticket Granting Service) for the administrator.
 ![](tgs.png)
 
-The TGS contains the password for the accoutn so I just pass it to john adn cracked the password.
+The TGS contains the password for the account so I just pass it to john and cracked the password.
 ![](john.png)
 
 As I already got the credentials for administrator, I can just PSExec into the box and got a shell as administrator.
