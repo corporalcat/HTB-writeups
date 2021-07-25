@@ -22,6 +22,7 @@ I use metasploit to ran the exploit and got a meterpreter shell as the user apac
 ![](meterpreter.png)
 
 Right now, I am a low privileged user and I need to privesc my way up. I try to look at config files and finally got some credentials from **/var/www/html/sites/default/settings.php**.
+
 ![](mysqlcred.png)
 
 It looks like it was used for mysql, So i try to execute mysql commands using those credentials and it worked!
@@ -46,6 +47,7 @@ Now trying to get root, I ran **sudo -l** and bruce can run a command with sudo 
 I find an exploit(https://github.com/initstring/dirty_sock) for the privesc. I use the **dirty_sockv2.py** as a reference.
 
 ![](snapexploit.png)
+
 The code above shows the python code where the exploit put the variable "TROJAN_SNAP" which is just a base64 encoded bash commands to add a user called "dirty_sock" to be able to run sudo on any command to a snap file. **More explanation here https://0xdf.gitlab.io/2019/02/13/playing-with-dirty-sock.html.**
 
 So I decode the TROJAN_SNAP and put it to a file called "exploit.snap". install the snap file and we can switch to a user called "dirty_sock".
