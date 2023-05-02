@@ -1,0 +1,5 @@
+[{
+"relation": ["delegate_permission/common.handle_all_urls"],
+"target" : { "namespace": "android_app", "package_name": "com.example.tania",
+"sha256_cert_fingerprints": ["D0:48:B4:20:53:EA:D9:B1:B4:32:CC:02:A8:31:7A:D7:EB:C0:C8:46:A3:F7:EC:A3:8B:37:47:91:65:89:A7:60"] }
+}]
